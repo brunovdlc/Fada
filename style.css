@@ -58,56 +58,6 @@ canvas {
   z-index: -1;
 }
 
-/* Estilos gerais -  cod para resoluções de tela  */
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 1.2em;
-      line-height: 1.5;
-    }
-    /* Estilos para telas grandes */
-    @media (min-width: 992px) {
-      .container {
-        max-width: 960px;
-      }
-      h1 {
-        font-size: 4em;
-        margin-bottom: 30px;
-      }
-      p {
-        font-size: 1.5em;
-        line-height: 1.7;
-      }
-    }
-    /* Estilos para telas médias */
-    @media (max-width: 991px) {
-      .container {
-        max-width: 720px;
-      }
-      h1 {
-        font-size: 3.5em;
-        margin-bottom: 25px;
-      }
-      p {
-        font-size: 1.3em;
-        line-height: 1.6;
-      }
-    }
-    /* Estilos para telas pequenas */
-    @media (max-width: 767px) {
-      .container {
-        max-width: 100%;
-      }
-      h1 {
-        font-size: 3em;
-        margin-bottom: 20px;
-      }
-      p {
-        font-size: 1.2em;
-        line-height: 1.5;
-      }
-    }
-
-     /* fim  */
+#buttons {
+  margin-top: -60px;
+}
